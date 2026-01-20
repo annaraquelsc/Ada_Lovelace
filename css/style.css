@@ -90,3 +90,18 @@ button{
   padding: 2px 20px;
   border-radius: 3px;
 }
+
+.menu-divas a {
+  text-decoration: none;
+  color: #6a0dad;
+  transition: all 0.2s ease;
+}
+
+.menu-divas a:hover,
+.menu-divas a:focus {
+  background-color: #6a0dad;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  outline: none;
+}
